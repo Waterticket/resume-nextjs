@@ -5,16 +5,15 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'University of Open Source',
-      subTitle: 'PhD in System Engineering (Honorary)',
-      startedAt: '1991-03',
-      // endedAt: '2010-02',
+      title: '한양대학교 ERICA (Hanyang University)',
+      subTitle: '재료화학공학과 / 컴퓨터학부 2학년 휴학. (GPA 4.3/4.5)',
+      startedAt: '2022-03',
     },
     {
-      title: 'Antarctica High School',
-      subTitle: 'Graduated',
-      startedAt: '1989-03',
-      endedAt: '1991-02',
+      title: '한국디지털미디어고등학교 (Korea Digital Media High School)',
+      subTitle: '웹프로그래밍과 졸업',
+      startedAt: '2019-03',
+      endedAt: '2022-01',
     },
   ],
 };

@@ -4,67 +4,55 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
-      title: 'Linux Kernal',
+      title: 'Hotopay',
       descriptions: [
         {
-          content: 'Regular contributor to kernel patches.',
+          content: 'PHP Rhymix 기반 PG 결제 연동 모듈',
         },
         {
-          content: 'Active member of kernel security audit team.',
+          content: 'https://github.com/Waterticket/rx-module-hotopay',
+          href: 'https://github.com/Waterticket/rx-module-hotopay',
+        },
+        {
+          content: 'https://hotopaydocs.potatosoft.kr/',
+          href: 'https://hotopaydocs.potatosoft.kr/',
         },
       ],
     },
     {
-      title: 'GNOME',
+      title: 'Rhymix CMS',
       descriptions: [
         {
-          content: 'Contributor to UX improvements for system utilities.',
+          content: 'FCM notification 항목을 추가할 수 있는 메소드 기여',
+          descriptions: [
+            {
+              content: 'https://github.com/rhymix/rhymix/pull/1841',
+              href: 'https://github.com/rhymix/rhymix/pull/1841',
+            },
+          ],
         },
         {
-          content: 'https://github.com/GNOME',
-          href: 'https://github.com/GNOME',
+          content: 'Deprecated 메소드 오류 수정',
+          descriptions: [
+            {
+              content: 'https://github.com/rhymix/rhymix/pull/2066',
+              href: 'https://github.com/rhymix/rhymix/pull/2066',
+            },
+          ],
         },
       ],
     },
     {
-      title: 'node',
-      descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
-        {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'NestJS',
+      title: 'GODNS',
       descriptions: [
         {
-          content: 'A progressive Node.js framework',
-        },
-        {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
+          content: '와일드카드 하위 DNS 분기 관련 버그 수정 기여',
+          descriptions: [
+            {
+              content: 'https://github.com/kenshinx/godns/pull/47',
+              href: 'https://github.com/kenshinx/godns/pull/47',
+            },
+          ],
         },
       ],
     },

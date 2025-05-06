@@ -1,9 +1,9 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faBuilding, faRss } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/prof_img.jpg';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -11,32 +11,36 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: 'Yeongsang Kim',
+    small: '(Waterticket)',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'me@yeongsang.kim',
+      link: 'mailto:me@yeongsang.kim',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '+82 10-4260-0186',
+      link: 'tel:+821042600186',
       icon: faPhone,
-      badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/Waterticket',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
+      link: 'https://potatosoft.kr',
+      icon: faBuilding,
+    },
+    {
+      link: 'https://blog.naver.com/matthew218',
+      icon: faRss,
     },
   ],
   notice: {
     title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+      "이메일로 연락부탁드립니다. (전화는 확인이 늦을 수 있습니다)",
     icon: faBell,
   },
 };
