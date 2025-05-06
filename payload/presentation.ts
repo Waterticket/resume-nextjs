@@ -10,7 +10,8 @@ const presentation: IPresentation.Payload = {
       at: '2022-10',
       descriptions: [
         {
-          content: 'GoLang, Redis를 활용한 실시간 접속자 유량제어 시스템의 설계 및 구현, 검증과정 발표',
+          content:
+            'GoLang, Redis를 활용한 실시간 접속자 유량제어 시스템의 설계 및 구현, 검증과정 발표',
         },
         {
           content: 'Video:',

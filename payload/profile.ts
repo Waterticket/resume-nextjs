@@ -39,8 +39,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title:
-      "이메일로 연락부탁드립니다. (전화는 확인이 늦을 수 있습니다)",
+    title: '이메일로 연락부탁드립니다. (전화는 확인이 늦을 수 있습니다)',
     icon: faBell,
   },
 };

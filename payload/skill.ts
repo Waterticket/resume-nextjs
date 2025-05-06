@@ -51,39 +51,34 @@ const virtualization: ISkill.Skill = {
 const InfraAndDatabase: ISkill.Skill = {
   category: 'Infrastructure & Database',
   items: [
-    {title: 'AWS', level: 3},
-    {title: 'MySQL', level: 3},
-    {title: 'Redis', level: 3},
-    {title: 'Nginx', level: 3},
-    {title: 'Apache', level: 3},
-    {title: 'Docker', level: 3},
-    {title: 'Linux', level: 3},
-    {title: 'Jenkins', level: 3},
-    {title: 'AWS CodeDeploy', level: 3},
-    {title: 'Oracle Cloud', level: 2},
-    {title: 'PostgreSQL', level: 2},
-    {title: 'Grafana', level: 2},
-    {title: 'Redis', level: 2},
-    {title: 'LLM', level: 2},
-  ]
+    { title: 'AWS', level: 3 },
+    { title: 'MySQL', level: 3 },
+    { title: 'Redis', level: 3 },
+    { title: 'Nginx', level: 3 },
+    { title: 'Apache', level: 3 },
+    { title: 'Docker', level: 3 },
+    { title: 'Linux', level: 3 },
+    { title: 'Jenkins', level: 3 },
+    { title: 'AWS CodeDeploy', level: 3 },
+    { title: 'Oracle Cloud', level: 2 },
+    { title: 'PostgreSQL', level: 2 },
+    { title: 'Grafana', level: 2 },
+    { title: 'Redis', level: 2 },
+    { title: 'LLM', level: 2 },
+  ],
 };
 
 const networks: ISkill.Skill = {
   category: 'Networks',
   items: [
-    {title: 'Firewall', level: 2},
-    {title: 'L4/L7 Load Balancer', level: 2},
+    { title: 'Firewall', level: 2 },
+    { title: 'L4/L7 Load Balancer', level: 2 },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [
-    programmingLanguages,
-    InfraAndDatabase,
-    virtualization,
-    networks,
-  ],
+  skills: [programmingLanguages, InfraAndDatabase, virtualization, networks],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
