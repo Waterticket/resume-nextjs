@@ -42,7 +42,7 @@ const experience: IExperience.Payload = {
             '영업부터 엔지니어, 유지보수 부서까지 전사의 폭 넓은 업무 프로세스 이해 및 유관부서와의 협의',
             '계약 간의 연관관계 및 배송 상태에 따른 유기적인 흐름 기반 데이터 모델 설계 & 개발',
           ],
-          skillKeywords: ['Java', 'Spring Boot', 'Mysql', 'MyBatis'],
+          skillKeywords: ['Java', 'Spring Boot', 'Mysql', 'MyBatis', 'ERP', 'CRM', 'ITAM'],
         },
         {
           title: '인프라 정리 및 네트워크 트러블슈팅',
